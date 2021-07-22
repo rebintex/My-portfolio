@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+
+
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+p, li {
+    font-family: 'Nunito', sans-serif;
+    color: #555555;
+}
+
+.name-color>a {
+    color: #00ffff;
+    text-decoration: none;
+}
+.head-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+
+.main-photo {
+    background-image: url(./images/duos-mon.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+   padding-top: 54%;
+   box-shadow: 0px -97px 127px 0px #000 inset;
+   border-radius: 30px;
+   position: relative;
+}
+#hidden {
+    overflow-x: hidden;
+}
+.block-color {
+    background-color: #6a13eb;
+    margin: 0 -500%;
+    padding: 0 500% !important;
+}
+.job-pos + h1, .job {
+    color: #fff;
+    
+}
+.job-pos {
+    position: relative;
+    width: 100%;
+}
+h2 {
+    padding: 30px 0 20px;
+}
+.job-pos + h1 {
+    padding: 0 0 50px;
+}
+.job {
+    transform: translate(7%, -150%);
+    max-width: 88%;
+}
+    
+.wrapper {
+    max-width: 70%;
+    margin: 0 auto;
+}
+.navig {
+    list-style: none;
+    
+}
+
+.navig li {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    color: #00ffff;
+}
+
+.navig li a:hover {
+    background: #fff;
+    border-radius: 4px;
+    color: #000;
+    transform: scale(1.1);
+    transition: ease .2s;
+    padding: 10px 5px;
+    font-weight: 600;
+}
+
+.navig li a {
+    text-decoration: none;
+    color: #00ffff;
+    padding: 4px;
+}
+.navig li a i {
+    padding-right: 3px;
+
+}
+.fa-user-tie {
+color:#75ee11
+}
+.fa-dumbbell {
+    color:#11eeac
+}
+.fa-user-tag {
+    color:#d8a600
+}
+.fa-trophy {
+    color:#ee11b7
+}
+.fa-address-book {
+    color:#002ab3
+}
+
+
+.hamburger {
+    background-image: url('./images/bars-solid.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 35px;
+    height: 35px;
+    display: none;
+    cursor: pointer;
+}
+.exp {
+    color: #3a3a3a;
+    list-style: none;
+}
+.exp span {
+    font-weight: 600;
+}
+
+.achievements {
+    list-style-type: none;
+    
+}
+.achievements li:first-child {
+    padding-left: 34px !important;
+}
+.achievements li {
+    background: url(./images/galochka-red.jpg) no-repeat left center;
+    margin: 12px 0;
+    padding: 3px 0 3px 34px;
+}
+
+.works {
+    margin: 30px 0;
+    background: #c5fff2;
+}
+.works-inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.works-item {
+    width: 33.33333%;
+    position: relative;
+}
+.works-item img {
+    display: block;
+    max-width: 100%;
+    border: 1px solid #ff5bc0;
+    background: linear-gradient(#000    0%, #fff 100%);
+}
+.works-item a {
+    
+    z-index: 5;
+}
+.works-content {
+    text-align: center;
+    padding: 0 30px 5px;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    position: absolute;
+    top: 20%;
+    
+}
+
+.works-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 20px;
+
+}
+
+.works-text {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.strength {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.strength li {
+    background: url(./images/galochka-green.jpg) no-repeat left center;
+    margin: 12px 0;
+    padding: 3px 0 3px 34px;
+}
+.princip-bg {
+    background: url(./images/hands-bg.png), linear-gradient(#e66465, #9198e5);
+    background-blend-mode: hard-light;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(106, 19, 235, .5);
+    
+}
+
+.blend-mode-hover {
+    background-blend-mode: overlay;
+    background-size: 200%;
+    
+}
+.prin-color {
+    padding: 70px 0 70px;
+}
+
+.prin-color h1, .prin-color p{
+    color: #121e48;
+}
+
+.personal img {
+    width: 29%;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.rounded-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.my-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.my-form input, textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border: 3px  solid #00ecb8;
+}
+
+textarea {
+    height: 170px;
+}
+input[type="submit"] {
+    background-color: #00ecb8;
+    width: 35%;
+    align-items: flex-end;
+    color:#6a13eb;
+    cursor: pointer;
+    font-size: 24px;
+   
+}
+.input-field{
+    border: 3px solid #1100ff !important;
+    background: orange
+}
+
+.up {
+    display: none; /*Temporar*/
+    background-color: #00ecb8;
+    padding: 20px;
+    width: 74px;
+    height: 74px;
+    position: fixed;
+    bottom: 2.2%;
+    left: 22%;
+    background-image: url(./images/up-arrow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+#contact {
+    position: relative;
+}
+/* Jquery test part */
+
+.active {
+    display: block;
+}
+.display-b {
+    display: block;
+}
+.display-n {
+    display: none;
+}
+
+
+
+
+@media screen and (min-width: 950px) and (max-width: 1100px) {
+
+    .name-color>a {
+        font-size: 1.75rem;
+    }    
+    .navig li {
+    font-size: 14px;
+    }
+    .job {
+        font-size: 14px;
+    }
+    .job-pos + h1 {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 830px) and (max-width: 949px) {
+    .wrapper {
+        max-width: 80%;
+    }
+    .name-color>a {
+        font-size: 1.5rem;
+    }    
+    .navig li {
+        font-size: 12px;
+    }
+    .job {
+        font-size: 13px;
+    }
+    .job-pos + h1 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 829px) {
+    .wrapper {
+        max-width: 85%;
+    }
+    .name-color>a {
+        font-size: 1.5rem;
+    }
+
+    .head-top {
+        position: relative;
+    }
+    .navig {
+        width: 300px;
+        background-color: #272e2e;
+        padding: 40px;
+        border-radius:5px;
+        position: absolute;
+        top: 110px;
+        right: 0px;
+        z-index: 10;
+        display: none;
+    } 
+
+
+    .hamburger {
+        background-image: url('./images/bars-solid.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 35px;
+        height: 35px;
+        transition: 0.2s;
+        display: block;
+
+    } 
+    .bg-change {
+        background-image: url('./images/times-solid.svg');
+        width: 35px;
+        height: 35px;
+        transition: 0.3s;
+    }
+    
+
+    .navig.active {
+        display: block;
+    }
+    .navig li {
+       display: block;
+       margin-top: 20px;
+    }
+    .navig li a:hover {
+       
+        padding: 7px 10px;
+    }
+
+    .job {
+        font-size: 13px;
+        margin-bottom: -20px;
+    }
+    .job-pos + h1 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    input[type="submit"] {
+        
+        width: 35%;
+        cursor: pointer;
+        font-size: 21px;
+        padding: 12px;
+        border-radius: 4px;
+    }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 599px) {
+    
+    .wrapper {
+        max-width: 90%;
+    }
+    .name-color>a {
+        font-size: 1.5rem;
+    }
+
+    .head-top {
+        position: relative;
+    }
+    .navig {
+        width: 300px;
+        background-color: #272e2e;
+        padding: 40px;
+        border-radius:5px;
+        position: absolute;
+        top: 110px;
+        right: 0px;
+        z-index: 10;
+        display: none;
+    } 
+
+   
+
+    .hamburger {
+        background-image: url('./images/bars-solid.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 35px;
+        height: 35px;
+        transition: 0.2s;
+        display: block;
+
+    } 
+    .bg-change {
+        background-image: url('./images/times-solid.svg');
+        width: 35px;
+        height: 35px;
+        transition: 0.3s;
+    }
+    .navig li {
+       display: block;
+       margin-top: 20px;
+    }
+    .navig li a:hover {
+       
+        padding: 7px 10px;
+    }
+
+    .job {
+        font-size: 13px;
+        margin-bottom: -41px;
+        
+    }
+    .job-pos + h1 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    input[type="submit"] {
+        
+        width: 35%;
+        cursor: pointer;
+        font-size: 19px;
+        padding: 12px;
+        border-radius: 4px;
+    }
+
+
+}
